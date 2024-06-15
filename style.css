@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(205, 248, 209);
+
+
+}
+
+.box {
+    height: 45vh;
+    width: 38vw;
+    background-color: azure;
+}
+
+.showresult {
+    outline: none;
+    border: none;
+    height: 6vh;
+    width: 35vw;
+    margin-top: .7rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    color: blueviolet;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+p {
+    font-size: larger;
+    color: rgb(231, 178, 33);
+    margin-right: 2vw;
+    margin-top: .4rem;
+}
+
+.enternum {
+    outline: none;
+    border: none;
+    height: 4vh;
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 5vw;
+    margin-left: 3rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: .4rem;
+    color: darkmagenta;
+
+}
+
+.inputcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    margin-top: .4rem;
+    color: brown;
+}
+
+button {
+    height: 6vh;
+    width: 18vw;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(6, 20, 48);
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: brown
+}
+
+.reset {
+    width: 7vw;
+    height: 4vh;
+    margin: .6rem;
+    font-size: medium;
+    background-color: rgb(247, 177, 72);
+}
+
+button:active,
+label:active {
+    background-color: green;
+}
+
+button:hover,
+label:hover {
+    cursor: pointer;
+}

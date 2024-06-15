@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genrate Random Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="box">
+            <h1> genrate random password</h1>
+            <input type="text" class="showresult" readonly placeholder="result">
+            <p> Password length <input type="text" class="enternum" placeholder="number"></p>
+            <div class="inputcon">
+                <input type="checkbox" id="upper" name="upper" class="imputs" value="abc">
+                <label for="upper"> Contain UpperCase</label><br>
+
+                <input type="checkbox" id="lower" name="lower" class="imputs" value="vgf">
+                <label for="lower"> Contain UpperCase</label><br>
+
+                <input type="checkbox" id="number" name="number" class="imputs" value="123">
+                <label for="number">Contain Numbers</label><br>
+
+                <input type="checkbox" id="symbol" name="symbol" class="imputs" value="abc">
+                <label for="symbol">Contain special symbols</label><br>
+            </div>
+            <button type="button" id="copy" class="reset">copy!</button>
+            <button type="button" class="button">genrate password</button>
+            <button type="summit" class="reset">Reset</button>
+
+
+        </form>
+
+    </div>
+    <script src="pure.js"></script>
+</body>
+
+</html>
